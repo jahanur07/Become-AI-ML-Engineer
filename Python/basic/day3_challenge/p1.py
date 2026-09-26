@@ -1,0 +1,6 @@
+tp=(3,3,2,1,3,[4,3,2],"jahanu4","raman",(2,4,2))
+print(tp)
+print(len(tp))
+print(tp[-5])
+tp1=list(tp)
+print(type(tp1))
