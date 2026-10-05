@@ -1,11 +1,56 @@
 [
     {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
         "label": "copy",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "copy",
         "description": "copy",
         "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "Python.basic.day3_challenge.p6",
+        "description": "Python.basic.day3_challenge.p6",
+        "peekOfCode": "number = random.randint(1, 10)\nprint(\"Random number:\", number)",
+        "detail": "Python.basic.day3_challenge.p6",
+        "documentation": {}
+    },
+    {
+        "label": "roll",
+        "kind": 5,
+        "importPath": "Python.basic.day3_challenge.p7",
+        "description": "Python.basic.day3_challenge.p7",
+        "peekOfCode": "roll = random.randint(1, 6)\nprint(\"Dice roll:\", roll)",
+        "detail": "Python.basic.day3_challenge.p7",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "Python.basic.day3_challenge.p8",
+        "description": "Python.basic.day3_challenge.p8",
+        "peekOfCode": "names = [\"Amina\", \"Ravi\", \"Noah\", \"Maya\"]\nchosen_name = random.choice(names)\nprint(\"Randomly chosen name:\", chosen_name)",
+        "detail": "Python.basic.day3_challenge.p8",
+        "documentation": {}
+    },
+    {
+        "label": "chosen_name",
+        "kind": 5,
+        "importPath": "Python.basic.day3_challenge.p8",
+        "description": "Python.basic.day3_challenge.p8",
+        "peekOfCode": "chosen_name = random.choice(names)\nprint(\"Randomly chosen name:\", chosen_name)",
+        "detail": "Python.basic.day3_challenge.p8",
         "documentation": {}
     }
 ]
