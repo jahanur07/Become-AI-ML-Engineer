@@ -70,5 +70,14 @@
         "peekOfCode": "def sum(a,b):\n  c=a+b\n  return c\nnum1=int(input(\"Enter the number 1 : \"))\nnum2=int(input(\"Enter the number 2 : \"))\nresult=sum(num1,num2)\nprint(f\"The sum is {result}\")",
         "detail": "Python.basic.day5_challenge.p2",
         "documentation": {}
+    },
+    {
+        "label": "calculator",
+        "kind": 2,
+        "importPath": "Python.basic.day5_challenge.p3",
+        "description": "Python.basic.day5_challenge.p3",
+        "peekOfCode": "def calculator(a,b):\n  c=a+b\n  d=a*b\n  e=a//b\n  return c,d,e\na=int(input(\"Enter the number a : \"))\nb=int(input(\"Enter the number b : \"))\nrel1,rel2,rel3=calculator(a,b)\nprint(f\"the Addition is {rel1}\")\nprint(f\"the multiplication is {rel2}\")",
+        "detail": "Python.basic.day5_challenge.p3",
+        "documentation": {}
     }
 ]
