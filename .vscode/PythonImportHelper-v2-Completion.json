@@ -61,5 +61,14 @@
         "peekOfCode": "def oddeven(num):\n  if num % 2 == 0:\n    print(\"Even\")\n  else:\n    print(\"Odd\")\noddeven(10)\noddeven(9)",
         "detail": "Python.basic.day5_challenge.p1",
         "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 2,
+        "importPath": "Python.basic.day5_challenge.p2",
+        "description": "Python.basic.day5_challenge.p2",
+        "peekOfCode": "def sum(a,b):\n  c=a+b\n  return c\nnum1=int(input(\"Enter the number 1 : \"))\nnum2=int(input(\"Enter the number 2 : \"))\nresult=sum(num1,num2)\nprint(f\"The sum is {result}\")",
+        "detail": "Python.basic.day5_challenge.p2",
+        "documentation": {}
     }
 ]
