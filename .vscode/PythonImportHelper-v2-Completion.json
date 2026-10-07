@@ -18,6 +18,15 @@
         "documentation": {}
     },
     {
+        "label": "p8",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "p8",
+        "description": "p8",
+        "detail": "p8",
+        "documentation": {}
+    },
+    {
         "label": "number",
         "kind": 5,
         "importPath": "Python.basic.day3_challenge.p6",
@@ -96,6 +105,60 @@
         "description": "Python.basic.day5_challenge.p4",
         "peekOfCode": "result = add(3,2,2,3,3,2)\nprint(result)",
         "detail": "Python.basic.day5_challenge.p4",
+        "documentation": {}
+    },
+    {
+        "label": "add_1",
+        "kind": 2,
+        "importPath": "Python.basic.day5_challenge.p5",
+        "description": "Python.basic.day5_challenge.p5",
+        "peekOfCode": "def add_1(num):\n  return num+1\ndef sqr(num):\n  return num ** 2\nnum=int(input(\"Enter the number : \"))\nre1=add_1(num)\nre2=sqr(re1)\nprint(f\"the result is {re2}\")",
+        "detail": "Python.basic.day5_challenge.p5",
+        "documentation": {}
+    },
+    {
+        "label": "sqr",
+        "kind": 2,
+        "importPath": "Python.basic.day5_challenge.p5",
+        "description": "Python.basic.day5_challenge.p5",
+        "peekOfCode": "def sqr(num):\n  return num ** 2\nnum=int(input(\"Enter the number : \"))\nre1=add_1(num)\nre2=sqr(re1)\nprint(f\"the result is {re2}\")",
+        "detail": "Python.basic.day5_challenge.p5",
+        "documentation": {}
+    },
+    {
+        "label": "fun",
+        "kind": 5,
+        "importPath": "Python.basic.day5_challenge.p6",
+        "description": "Python.basic.day5_challenge.p6",
+        "peekOfCode": "fun = lambda a : a+1\nprint(fun(4))\nnew = lambda r,e:r*e\nprint(new(3,5))",
+        "detail": "Python.basic.day5_challenge.p6",
+        "documentation": {}
+    },
+    {
+        "label": "new",
+        "kind": 5,
+        "importPath": "Python.basic.day5_challenge.p6",
+        "description": "Python.basic.day5_challenge.p6",
+        "peekOfCode": "new = lambda r,e:r*e\nprint(new(3,5))",
+        "detail": "Python.basic.day5_challenge.p6",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Python.basic.day5_challenge.p8",
+        "description": "Python.basic.day5_challenge.p8",
+        "peekOfCode": "def add(a,b):\n  return a+b\ndef squer_root(num):\n  return num ** 0.5\nif __name__ == \"__main__\":\n  print(add(2,4))",
+        "detail": "Python.basic.day5_challenge.p8",
+        "documentation": {}
+    },
+    {
+        "label": "squer_root",
+        "kind": 2,
+        "importPath": "Python.basic.day5_challenge.p8",
+        "description": "Python.basic.day5_challenge.p8",
+        "peekOfCode": "def squer_root(num):\n  return num ** 0.5\nif __name__ == \"__main__\":\n  print(add(2,4))",
+        "detail": "Python.basic.day5_challenge.p8",
         "documentation": {}
     }
 ]
