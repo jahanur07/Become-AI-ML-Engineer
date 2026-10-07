@@ -79,5 +79,23 @@
         "peekOfCode": "def calculator(a,b):\n  c=a+b\n  d=a*b\n  e=a//b\n  return c,d,e\na=int(input(\"Enter the number a : \"))\nb=int(input(\"Enter the number b : \"))\nrel1,rel2,rel3=calculator(a,b)\nprint(f\"the Addition is {rel1}\")\nprint(f\"the multiplication is {rel2}\")",
         "detail": "Python.basic.day5_challenge.p3",
         "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Python.basic.day5_challenge.p4",
+        "description": "Python.basic.day5_challenge.p4",
+        "peekOfCode": "def add(*args):\n  return sum(args)\nresult = add(3,2,2,3,3,2)\nprint(result)",
+        "detail": "Python.basic.day5_challenge.p4",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Python.basic.day5_challenge.p4",
+        "description": "Python.basic.day5_challenge.p4",
+        "peekOfCode": "result = add(3,2,2,3,3,2)\nprint(result)",
+        "detail": "Python.basic.day5_challenge.p4",
+        "documentation": {}
     }
 ]
