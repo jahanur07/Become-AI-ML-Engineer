@@ -35,7 +35,7 @@
 
 🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
-<sub>Progress updates automatically when I commit changes to this checklist.</sub>
+<sub>Automatically refreshed after each checklist update.</sub>
 
 </div>
 <!-- PROGRESS:END -->
@@ -48,7 +48,7 @@
 10 structured stages · Expand any stage to explore its checklist. Complete topics as you learn and practise them.
 
 <details>
-<summary id="stage-01"><strong>Stage 01 · Python foundations</strong></summary>
+<summary id="stage-01"><strong>Stage 01 · Python foundations</strong> <sub>43/68 complete</sub></summary>
 
 **Getting started**
 - [x] Install Python and set up VS Code
@@ -133,7 +133,7 @@
 </details>
 
 <details>
-<summary id="stage-02"><strong>Stage 02 · Computer science and developer tools</strong></summary>
+<summary id="stage-02"><strong>Stage 02 · Computer science and developer tools</strong> <sub>0/17 complete</sub></summary>
 
 - [ ] Big-O notation: time and space complexity
 - [ ] Arrays and strings problem solving
@@ -156,7 +156,7 @@
 </details>
 
 <details>
-<summary id="stage-03"><strong>Stage 03 · Mathematics for machine learning</strong></summary>
+<summary id="stage-03"><strong>Stage 03 · Mathematics for machine learning</strong> <sub>0/30 complete</sub></summary>
 
 **Algebra and functions**
 - [ ] Variables, expressions and equations
@@ -199,7 +199,7 @@
 </details>
 
 <details>
-<summary id="stage-04"><strong>Stage 04 · Data analysis with Python</strong></summary>
+<summary id="stage-04"><strong>Stage 04 · Data analysis with Python</strong> <sub>0/16 complete</sub></summary>
 
 - [ ] NumPy arrays and array creation
 - [ ] NumPy indexing, slicing and reshaping
@@ -221,7 +221,7 @@
 </details>
 
 <details>
-<summary id="stage-05"><strong>Stage 05 · Machine learning foundations</strong></summary>
+<summary id="stage-05"><strong>Stage 05 · Machine learning foundations</strong> <sub>0/34 complete</sub></summary>
 
 **Core concepts**
 - [ ] What machine learning is and where it is used
@@ -268,7 +268,7 @@
 </details>
 
 <details>
-<summary id="stage-06"><strong>Stage 06 · Practical machine learning projects</strong></summary>
+<summary id="stage-06"><strong>Stage 06 · Practical machine learning projects</strong> <sub>0/7 complete</sub></summary>
 
 - [ ] House price prediction
 - [ ] Student performance prediction
@@ -281,7 +281,7 @@
 </details>
 
 <details>
-<summary id="stage-07"><strong>Stage 07 · Deep learning</strong></summary>
+<summary id="stage-07"><strong>Stage 07 · Deep learning</strong> <sub>0/13 complete</sub></summary>
 
 - [ ] Neurons, layers, weights and biases
 - [ ] Activation functions
@@ -300,7 +300,7 @@
 </details>
 
 <details>
-<summary id="stage-08"><strong>Stage 08 · AI specialisations</strong></summary>
+<summary id="stage-08"><strong>Stage 08 · AI specialisations</strong> <sub>0/20 complete</sub></summary>
 
 **Natural language processing**
 - [ ] Text cleaning and tokenisation
@@ -331,7 +331,7 @@
 </details>
 
 <details>
-<summary id="stage-09"><strong>Stage 09 · Deployment and engineering</strong></summary>
+<summary id="stage-09"><strong>Stage 09 · Deployment and engineering</strong> <sub>0/12 complete</sub></summary>
 
 - [ ] Build an ML prediction API with FastAPI
 - [ ] Validate API inputs and handle errors
@@ -349,7 +349,7 @@
 </details>
 
 <details>
-<summary id="stage-10"><strong>Stage 10 · Portfolio and career readiness</strong></summary>
+<summary id="stage-10"><strong>Stage 10 · Portfolio and career readiness</strong> <sub>0/9 complete</sub></summary>
 
 - [ ] Publish one end-to-end data analysis project
 - [ ] Publish one end-to-end machine learning project
