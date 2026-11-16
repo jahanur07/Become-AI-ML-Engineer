@@ -1,24 +1,28 @@
-<!--
-  LEARNING TRACKER
-  To update progress: edit a task below from - [ ] to - [x] and commit.
-  GitHub Actions recalculates the progress summary automatically.
--->
-
 <div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:1D4ED8,100:0EA5E9&height=190&section=header&text=AI%2FML%20Learning%20Journey&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" alt="AI and machine learning learning journey banner"/>
 
 # 🚀 Become an AI/ML Engineer
 
-### From Python fundamentals to building real-world AI applications
+### Learn · Practise · Build · Repeat
 
-A hands-on learning journey — one concept, one exercise, and one project at a time.
+**A structured roadmap documenting my journey from Python fundamentals to real-world AI applications.**
 
-[![Python](https://img.shields.io/badge/Python-Learning-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![AI & ML](https://img.shields.io/badge/AI%20%26%20Machine%20Learning-Roadmap-8A2BE2?style=for-the-badge)](#learning-roadmap)
-[![Progress tracker](https://img.shields.io/badge/Progress-Auto--tracked-16A34A?style=for-the-badge)](#my-learning-progress)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
 
 </div>
 
 ---
+
+## 🧭 Quick navigation
+
+| Foundations | Data & ML | AI & Career |
+|---|---|---|
+| [Python](#stage-01) · [Computer Science](#stage-02) · [Math](#stage-03) | [Data Analysis](#stage-04) · [Machine Learning](#stage-05) · [ML Projects](#stage-06) | [Deep Learning](#stage-07) · [AI Specialisations](#stage-08) · [Deployment](#stage-09) · [Career](#stage-10) |
 
 ## 📈 My learning progress
 
@@ -41,9 +45,10 @@ A hands-on learning journey — one concept, one exercise, and one project at a 
 
 ## 🗺️ Learning roadmap
 
-The roadmap is divided into 10 stages. Expand a stage to see its skills and tick off each topic as you learn it.
+10 structured stages · Expand any stage to explore its checklist. Complete topics as you learn and practise them.
 
 <details>
+<a id="stage-01"></a>
 <summary><strong>Stage 01 · Python foundations</strong></summary>
 
 **Getting started**
@@ -129,6 +134,7 @@ The roadmap is divided into 10 stages. Expand a stage to see its skills and tick
 </details>
 
 <details>
+<a id="stage-02"></a>
 <summary><strong>Stage 02 · Computer science and developer tools</strong></summary>
 
 - [ ] Big-O notation: time and space complexity
@@ -152,6 +158,7 @@ The roadmap is divided into 10 stages. Expand a stage to see its skills and tick
 </details>
 
 <details>
+<a id="stage-03"></a>
 <summary><strong>Stage 03 · Mathematics for machine learning</strong></summary>
 
 **Algebra and functions**
@@ -195,6 +202,7 @@ The roadmap is divided into 10 stages. Expand a stage to see its skills and tick
 </details>
 
 <details>
+<a id="stage-04"></a>
 <summary><strong>Stage 04 · Data analysis with Python</strong></summary>
 
 - [ ] NumPy arrays and array creation
@@ -217,6 +225,7 @@ The roadmap is divided into 10 stages. Expand a stage to see its skills and tick
 </details>
 
 <details>
+<a id="stage-05"></a>
 <summary><strong>Stage 05 · Machine learning foundations</strong></summary>
 
 **Core concepts**
@@ -264,6 +273,7 @@ The roadmap is divided into 10 stages. Expand a stage to see its skills and tick
 </details>
 
 <details>
+<a id="stage-06"></a>
 <summary><strong>Stage 06 · Practical machine learning projects</strong></summary>
 
 - [ ] House price prediction
@@ -277,6 +287,7 @@ The roadmap is divided into 10 stages. Expand a stage to see its skills and tick
 </details>
 
 <details>
+<a id="stage-07"></a>
 <summary><strong>Stage 07 · Deep learning</strong></summary>
 
 - [ ] Neurons, layers, weights and biases
@@ -296,6 +307,7 @@ The roadmap is divided into 10 stages. Expand a stage to see its skills and tick
 </details>
 
 <details>
+<a id="stage-08"></a>
 <summary><strong>Stage 08 · AI specialisations</strong></summary>
 
 **Natural language processing**
@@ -327,6 +339,7 @@ The roadmap is divided into 10 stages. Expand a stage to see its skills and tick
 </details>
 
 <details>
+<a id="stage-09"></a>
 <summary><strong>Stage 09 · Deployment and engineering</strong></summary>
 
 - [ ] Build an ML prediction API with FastAPI
@@ -345,6 +358,7 @@ The roadmap is divided into 10 stages. Expand a stage to see its skills and tick
 </details>
 
 <details>
+<a id="stage-10"></a>
 <summary><strong>Stage 10 · Portfolio and career readiness</strong></summary>
 
 - [ ] Publish one end-to-end data analysis project
@@ -371,14 +385,15 @@ The roadmap is divided into 10 stages. Expand a stage to see its skills and tick
 | [Banking system](Python/project/fun_pro/banking_system.py) | A beginner console project |
 | [Dice game](Python/basic/day4_challenge/dicegame.py) | A small random-number game |
 
-## 🔁 How the progress percentage works
+## 📝 How to use this tracker
 
-1. Open this README and click **Edit** (pencil icon).
-2. Change a completed task from `- [ ]` to `- [x]`.
-3. Commit the README change to the `main` branch.
-4. GitHub Actions counts checked tasks and updates the percentage above.
+1. Learn the concept using documentation or a course.
+2. Practise it with a small coding exercise.
+3. Mark it complete only when you can explain it and solve a task independently.
+4. Edit this README, change `- [ ]` to `- [x]`, and commit to `main`.
+5. GitHub Actions refreshes the overall and stage-by-stage progress.
 
-**Important:** The checkboxes are edited in the README source; they are not clickable toggles in the normal rendered README view. Mark a topic complete only when you can explain it and do a small exercise independently.
+> **Note:** GitHub README checkboxes are not interactive in normal view. You must edit and commit the Markdown checkbox to record completion.
 
 ---
 
