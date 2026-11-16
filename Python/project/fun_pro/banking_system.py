@@ -1,13 +1,25 @@
 def check_balance():
-  pass
+  print(f"Your current balance is {balance}")
 
-def deposit():
-  pass
+def deposit(amount):
+  global balance
+  if amount >0:
+    balance +=  amount 
+  else:
+    print("cannot deposit a negetive amount or zero amount ")
+    
+    
+def withdraw(amount):
+  global balance
+  if amount <0 :
+    print("cannot deposit a negetive amount or zero amount ")
+  elif amount > balance:
+    print("cannot withdraw , insufficient balance")
+  else:
+    balance -=amount
+    
 
-def withdraw():
-  pass
-
-balance = 0
+balance = 0.0
 
 print("Wellcome to ABC bank !!")
 while True:
@@ -20,9 +32,11 @@ while True:
   if choice==1:
     check_balance()
   elif choice == 2:
-    deposit()
+    amt=float(input("Enter deposit amount :"))
+    deposit(amt)
   elif choice == 3:
-    withdraw()
+    amt=float(input("Enter withdraw amount :"))
+    withdraw(amt)
   elif choice == 4:
     break
   else:

@@ -1,0 +1,2 @@
+This file is create using ths 'x' mode in python 
+ and this is the next line  
