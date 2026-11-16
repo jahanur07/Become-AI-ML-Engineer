@@ -31,7 +31,7 @@
 
 # 11%
 
-**43 of 383 learning tasks completed**
+**44 of 383 learning tasks completed**
 
 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
@@ -48,7 +48,7 @@
 10 structured stages · Expand any stage to explore its checklist. Complete topics as you learn and practise them.
 
 <details>
-<summary id="stage-01"><strong>Stage 01 · Python & Full-Stack Web Development</strong> <sub>43/225 complete</sub></summary>
+<summary id="stage-01"><strong>Stage 01 · Python & Full-Stack Web Development</strong> <sub>44/225 complete</sub></summary>
 
 **Getting started**
 - [x] Install Python and set up VS Code
