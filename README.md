@@ -1,20 +1,50 @@
-# Become an AI/ML Engineer 🚀
+<!--
+  LEARNING TRACKER
+  To update progress: edit a task below from - [ ] to - [x] and commit.
+  GitHub Actions recalculates the progress summary automatically.
+-->
 
-A public, practical record of my journey from Python foundations to AI/ML engineering. I track each topic here, add code and notes, and build projects to prove what I have learned.
+<div align="center">
 
-> **How to use this tracker:** Complete a topic, open this README in GitHub, click the pencil (**Edit**), change its `- [ ]` to `- [x]`, and commit the change. The progress workflow recalculates the percentage after the README is updated. A checkbox in the normal README view is not directly interactive.
+# 🚀 Become an AI/ML Engineer
 
-## 📊 Live learning progress
+### From Python fundamentals to building real-world AI applications
+
+A hands-on learning journey — one concept, one exercise, and one project at a time.
+
+[![Python](https://img.shields.io/badge/Python-Learning-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![AI & ML](https://img.shields.io/badge/AI%20%26%20Machine%20Learning-Roadmap-8A2BE2?style=for-the-badge)](#learning-roadmap)
+[![Progress tracker](https://img.shields.io/badge/Progress-Auto--tracked-16A34A?style=for-the-badge)](#my-learning-progress)
+
+</div>
+
+---
+
+## 📈 My learning progress
 
 <!-- PROGRESS:START -->
-**Overall completion: 19% (43 / 226 topics)**
+<div align="center">
 
-Progress is calculated automatically from the checklist below. Only tick a topic when you can explain it and complete a small exercise without copying.
+# 19%
+
+**43 of 226 learning tasks completed**
+
+🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+
+<sub>Progress updates automatically when I commit changes to this checklist.</sub>
+
+</div>
 <!-- PROGRESS:END -->
 
-## 🧭 Learning roadmap & checklist
+> [!TIP]
+> **How to update:** Open this README → click the pencil icon → change a completed task from `- [ ]` to `- [x]` → commit to `main`. GitHub Actions recalculates the percentage. The boxes are edited in the README source; they are not clickable toggles in the normal rendered view.
 
-### 1. Python foundations
+## 🗺️ Learning roadmap
+
+The roadmap is divided into 10 stages. Expand a stage to see its skills and tick off each topic as you learn it.
+
+<details>
+<summary><strong>Stage 01 · Python foundations</strong></summary>
 
 **Getting started**
 - [x] Install Python and set up VS Code
@@ -96,7 +126,11 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 - [ ] OOP-based banking application
 - [ ] Use an API and save the returned data
 
-### 2. Computer science and developer tools
+</details>
+
+<details>
+<summary><strong>Stage 02 · Computer science and developer tools</strong></summary>
+
 - [ ] Big-O notation: time and space complexity
 - [ ] Arrays and strings problem solving
 - [ ] Searching: linear and binary search
@@ -115,7 +149,11 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 - [ ] HTTP, JSON, REST APIs and status codes
 - [ ] SQL fundamentals and joins
 
-### 3. Mathematics for machine learning
+</details>
+
+<details>
+<summary><strong>Stage 03 · Mathematics for machine learning</strong></summary>
+
 **Algebra and functions**
 - [ ] Variables, expressions and equations
 - [ ] Fractions, ratios, percentages and exponents
@@ -154,7 +192,11 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 - [ ] Hypothesis testing and p-values
 - [ ] Confidence intervals
 
-### 4. Data analysis with Python
+</details>
+
+<details>
+<summary><strong>Stage 04 · Data analysis with Python</strong></summary>
+
 - [ ] NumPy arrays and array creation
 - [ ] NumPy indexing, slicing and reshaping
 - [ ] Vectorization and broadcasting
@@ -172,7 +214,11 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 - [ ] Data cleaning and preprocessing
 - [ ] Build an EDA project and explain findings
 
-### 5. Machine learning foundations
+</details>
+
+<details>
+<summary><strong>Stage 05 · Machine learning foundations</strong></summary>
+
 **Core concepts**
 - [ ] What machine learning is and where it is used
 - [ ] Supervised, unsupervised and reinforcement learning
@@ -215,7 +261,11 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 - [ ] Feature selection and feature importance
 - [ ] Explain model results and limitations
 
-### 6. Practical machine learning projects
+</details>
+
+<details>
+<summary><strong>Stage 06 · Practical machine learning projects</strong></summary>
+
 - [ ] House price prediction
 - [ ] Student performance prediction
 - [ ] Customer churn prediction
@@ -224,7 +274,11 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 - [ ] Compare multiple models on one dataset
 - [ ] Write a clear project README with results and limitations
 
-### 7. Deep learning
+</details>
+
+<details>
+<summary><strong>Stage 07 · Deep learning</strong></summary>
+
 - [ ] Neurons, layers, weights and biases
 - [ ] Activation functions
 - [ ] Forward propagation
@@ -239,7 +293,11 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 - [ ] Recurrent neural networks (RNNs) and LSTMs (intro)
 - [ ] Transfer learning
 
-### 8. AI specialisations
+</details>
+
+<details>
+<summary><strong>Stage 08 · AI specialisations</strong></summary>
+
 **Natural language processing**
 - [ ] Text cleaning and tokenisation
 - [ ] Stop words, stemming and lemmatisation
@@ -266,7 +324,11 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 - [ ] Evaluate AI outputs and reduce hallucinations
 - [ ] Build a small AI assistant
 
-### 9. Deployment and engineering
+</details>
+
+<details>
+<summary><strong>Stage 09 · Deployment and engineering</strong></summary>
+
 - [ ] Build an ML prediction API with FastAPI
 - [ ] Validate API inputs and handle errors
 - [ ] Save and load trained models
@@ -280,7 +342,11 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 - [ ] Write tests for data and model pipelines
 - [ ] Document setup, usage and limitations
 
-### 10. Portfolio and career readiness
+</details>
+
+<details>
+<summary><strong>Stage 10 · Portfolio and career readiness</strong></summary>
+
 - [ ] Publish one end-to-end data analysis project
 - [ ] Publish one end-to-end machine learning project
 - [ ] Publish one deep learning or AI application
@@ -290,6 +356,10 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 - [ ] Practise Python and SQL interview questions
 - [ ] Practise ML fundamentals interview questions
 - [ ] Update resume and GitHub profile with completed work
+
+</details>
+
+---
 
 ## 📁 Current repository work
 
@@ -310,8 +380,16 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 
 **Important:** The checkboxes are edited in the README source; they are not clickable toggles in the normal rendered README view. Mark a topic complete only when you can explain it and do a small exercise independently.
 
+---
+
 ## 🎯 My goal
 
 Become an AI/ML Engineer by building strong programming fundamentals, learning the mathematics behind machine learning, practising with real datasets, and creating useful AI projects.
 
 **Keep learning. Keep practising. Never give up.** 💪
+
+<div align="center">
+
+**⭐ Learn deeply. Practise consistently. Build things that matter.**
+
+</div>
