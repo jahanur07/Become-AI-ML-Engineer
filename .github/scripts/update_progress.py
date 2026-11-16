@@ -9,9 +9,8 @@ end = "<!-- PROGRESS:END -->"
 if start not in text or end not in text:
     raise SystemExit("Progress markers are missing from README.md")
 
-# Count only checklist tasks in the roadmap, not examples or instructions elsewhere.
-roadmap_start = text.index("## 🧭 Learning roadmap & checklist")
-roadmap_end = text.index("## 📁 Current repository work")
+roadmap_start = text.index("## 🗺️ Learning roadmap")
+roadmap_end = text.index("---", roadmap_start)
 roadmap = text[roadmap_start:roadmap_end]
 
 checked = len(re.findall(r"(?m)^\s*- \[x\]\s+", roadmap, flags=re.IGNORECASE))
@@ -19,11 +18,17 @@ unchecked = len(re.findall(r"(?m)^\s*- \[ \]\s+", roadmap))
 total = checked + unchecked
 percent = round((checked / total) * 100) if total else 0
 
+filled = round(percent / 5)
+bar = "🟩" * filled + "⬜" * (20 - filled)
+
 replacement = (
     f"{start}\n"
-    f"**Overall completion: {percent}% ({checked} / {total} topics)**\n\n"
-    "Progress is calculated automatically from the checklist below. "
-    "Only tick a topic when you can explain it and complete a small exercise without copying.\n"
+    "<div align=\"center\">\n\n"
+    f"# {percent}%\n\n"
+    f"**{checked} of {total} learning tasks completed**\n\n"
+    f"{bar}\n\n"
+    "<sub>Progress updates automatically when I commit changes to this checklist.</sub>\n\n"
+    "</div>\n"
     f"{end}"
 )
 
