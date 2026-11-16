@@ -57,7 +57,7 @@
 - [x] Variables and naming rules
 - [x] Basic data types: int, float, str, bool
 - [x] Type conversion: `int()`, `float()`, `str()`
-- [ ] Comments and docstrings
+- [X] Comments and docstrings
 - [X] Operators: arithmetic, comparison, logical, assignment
 - [X] Operator precedence
 - [X] f-strings and string formatting
