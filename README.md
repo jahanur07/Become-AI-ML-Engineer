@@ -9,7 +9,7 @@ A public, practical record of my journey from Python foundations to AI/ML engine
 <!-- PROGRESS:START -->
 **Overall completion: 11% (25 / 226 topics)**
 
-Progress is calculated from the checkboxes in the learning roadmap below. Only tick a topic when you can explain it and complete a small exercise without copying.
+Progress is calculated automatically from the checklist below. Only tick a topic when you can explain it and complete a small exercise without copying.
 <!-- PROGRESS:END -->
 
 ## 🧭 Learning roadmap & checklist
