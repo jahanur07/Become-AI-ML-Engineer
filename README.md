@@ -48,7 +48,7 @@
 10 structured stages · Expand any stage to explore its checklist. Complete topics as you learn and practise them.
 
 <details>
-<summary id="stage-01"><strong>Stage 01 · Python foundations</strong> <sub>43/68 complete</sub></summary>
+<summary id="stage-01"><strong>Stage 01 · Python & Full-Stack Web Development</strong> <sub>43/68 complete</sub></summary>
 
 **Getting started**
 - [x] Install Python and set up VS Code
@@ -120,6 +120,181 @@
 - [ ] Install and manage third-party packages
 - [ ] Type hints, debugging and logging
 - [ ] Unit testing with pytest or unittest
+
+**Python backend development**
+- [ ] Understand client-server architecture
+- [ ] Understand request-response lifecycle
+- [ ] HTTP methods: GET, POST, PUT, PATCH and DELETE
+- [ ] HTTP status codes and headers
+- [ ] JSON request and response formats
+- [ ] Environment variables and configuration
+- [ ] Build a basic web server
+- [ ] Routing and URL parameters
+- [ ] Query parameters and request validation
+- [ ] Middleware concepts
+- [ ] Cookies and sessions
+- [ ] Authentication vs authorisation
+- [ ] Password hashing and secure credential storage
+- [ ] Logging and application configuration
+- [ ] Background tasks and scheduled jobs (intro)
+
+**Web development foundations**
+- [ ] HTML document structure and semantic HTML
+- [ ] Headings, paragraphs, links, lists and images
+- [ ] Tables and accessible forms
+- [ ] HTML input types and form validation
+- [ ] CSS selectors, specificity and cascade
+- [ ] Box model, display and positioning
+- [ ] Flexbox
+- [ ] CSS Grid
+- [ ] Responsive design and media queries
+- [ ] CSS variables and reusable styles
+- [ ] Transitions and basic animations
+- [ ] JavaScript syntax, variables and data types
+- [ ] Operators, conditions and loops in JavaScript
+- [ ] Functions, scope and closures (intro)
+- [ ] Arrays, objects and common methods
+- [ ] DOM selection and manipulation
+- [ ] Browser events and event handling
+- [ ] Form handling and client-side validation
+- [ ] ES modules: import and export
+- [ ] Promises and async/await
+- [ ] Fetch API and handling JSON
+- [ ] Browser storage: localStorage and sessionStorage
+- [ ] npm and package.json basics
+- [ ] React fundamentals: components and JSX
+- [ ] Props, state and event handling in React
+- [ ] Hooks: useState and useEffect
+- [ ] Forms and controlled components
+- [ ] React Router and client-side navigation
+- [ ] Calling backend APIs from React
+- [ ] Loading, error and empty states
+- [ ] Reusable components and basic folder structure
+
+**Databases and SQL**
+- [ ] Relational database concepts
+- [ ] Tables, rows, columns and data types
+- [ ] Primary keys and foreign keys
+- [ ] Create, read, update and delete with SQL
+- [ ] WHERE, ORDER BY, LIMIT and DISTINCT
+- [ ] Aggregate functions and GROUP BY
+- [ ] INNER, LEFT, RIGHT and FULL joins
+- [ ] Subqueries and common table expressions (intro)
+- [ ] Constraints and data integrity
+- [ ] Database normalisation basics
+- [ ] Indexes and query performance basics
+- [ ] Transactions and ACID concepts
+- [ ] Connect Python to SQLite
+- [ ] Connect Python to MySQL or PostgreSQL
+- [ ] Use parameterised queries to prevent SQL injection
+- [ ] Database backup and restore basics
+
+**Django full-stack development**
+- [ ] Django project and app structure
+- [ ] Create a Django project and app
+- [ ] Understand settings, URLs and WSGI/ASGI
+- [ ] Django request-response cycle
+- [ ] URL routing and path converters
+- [ ] Function-based views
+- [ ] Class-based views (intro)
+- [ ] Django templates and template inheritance
+- [ ] Static files: CSS, JavaScript and images
+- [ ] Django models and fields
+- [ ] Migrations: makemigrations and migrate
+- [ ] Django ORM: create, filter, update and delete
+- [ ] Relationships: OneToOne, ForeignKey and ManyToMany
+- [ ] QuerySets, ordering and aggregation
+- [ ] Django forms and ModelForms
+- [ ] Form validation and error messages
+- [ ] Django admin customisation
+- [ ] User registration and login
+- [ ] Logout, password change and reset flows
+- [ ] Groups, permissions and access control
+- [ ] Sessions, cookies and messages framework
+- [ ] File and image uploads
+- [ ] Pagination, search and filtering
+- [ ] Django signals and when to use them
+- [ ] Custom middleware (intro)
+- [ ] Django security settings and CSRF protection
+- [ ] Testing models, views and forms
+- [ ] Build and document a complete Django CRUD application
+
+**Django REST API development**
+- [ ] REST architecture and resource design
+- [ ] Install and configure Django REST Framework
+- [ ] Serializers and validation
+- [ ] API views and generic views
+- [ ] ViewSets and routers
+- [ ] CRUD endpoints
+- [ ] Pagination, filtering, search and ordering
+- [ ] Token and session authentication
+- [ ] JWT authentication concepts and implementation
+- [ ] Permissions and role-based access
+- [ ] CORS and CSRF concepts
+- [ ] API error handling and consistent responses
+- [ ] API documentation with OpenAPI / Swagger
+- [ ] Test endpoints with Postman or Insomnia
+- [ ] Write automated API tests
+- [ ] API versioning and rate limiting basics
+
+**Alternative Python backend frameworks**
+- [ ] Flask application and route basics
+- [ ] Flask templates, forms and request handling
+- [ ] Flask database integration
+- [ ] Flask blueprints and application factory
+- [ ] FastAPI routes and Pydantic models
+- [ ] FastAPI validation and dependency injection
+- [ ] FastAPI authentication and API documentation
+- [ ] Compare Django, Flask and FastAPI use cases
+
+**Full-stack integration and security**
+- [ ] Connect React frontend to Django REST APIs
+- [ ] Configure API base URLs for development and production
+- [ ] Handle CORS correctly
+- [ ] Implement frontend login and logout flows
+- [ ] Store and send authentication tokens safely
+- [ ] Protect frontend routes and backend endpoints
+- [ ] Implement role-based dashboards
+- [ ] Upload files from frontend to backend
+- [ ] Handle API errors and expired sessions
+- [ ] Prevent SQL injection
+- [ ] Understand XSS and safe output rendering
+- [ ] Understand CSRF and secure cookies
+- [ ] Validate and sanitise user input
+- [ ] Use HTTPS and secure production settings
+- [ ] Never commit secrets or API keys to Git
+
+**Testing, Git and deployment**
+- [ ] Write Python unit tests with pytest or unittest
+- [ ] Test Django models, views and APIs
+- [ ] Test React components and user interactions (intro)
+- [ ] Use Git branches and pull requests for features
+- [ ] Resolve merge conflicts
+- [ ] Manage dependencies with requirements.txt or pyproject.toml
+- [ ] Configure development, testing and production environments
+- [ ] Set DEBUG=False and configure ALLOWED_HOSTS
+- [ ] Configure static and media files in production
+- [ ] Configure database credentials using environment variables
+- [ ] Deploy a Django backend
+- [ ] Deploy a React frontend
+- [ ] Configure a custom domain and DNS
+- [ ] Configure HTTPS / SSL
+- [ ] Configure production CORS and trusted origins
+- [ ] Run database migrations safely during deployment
+- [ ] Back up and restore production databases
+- [ ] Set up application logs and basic monitoring
+- [ ] Understand CI/CD and GitHub Actions
+- [ ] Create a deployment checklist and rollback plan
+
+**Full-stack portfolio projects**
+- [ ] Build a task manager with Django and React
+- [ ] Build an authentication system with protected routes
+- [ ] Build a CRUD dashboard with search and pagination
+- [ ] Build a blog or content management system
+- [ ] Build an e-commerce backend with cart and orders
+- [ ] Build a role-based admin dashboard
+- [ ] Deploy one complete Python full-stack application
+- [ ] Write project documentation, screenshots and setup instructions
 
 **Python practice projects**
 - [x] Dice rolling game
