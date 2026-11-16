@@ -24,45 +24,45 @@ Progress is calculated automatically from the checklist below. Only tick a topic
 - [x] Basic data types: int, float, str, bool
 - [x] Type conversion: `int()`, `float()`, `str()`
 - [ ] Comments and docstrings
-- [ ] Operators: arithmetic, comparison, logical, assignment
-- [ ] Operator precedence
-- [ ] f-strings and string formatting
-- [ ] Taking multiple inputs and validating input
+- [X] Operators: arithmetic, comparison, logical, assignment
+- [X] Operator precedence
+- [X] f-strings and string formatting
+- [X] Taking multiple inputs and validating input
 
 **Decision making and loops**
 - [x] `if`, `elif`, `else`
-- [ ] Nested conditions
+- [X] Nested conditions
 - [x] `for` loops
 - [x] `while` loops
 - [x] `break`, `continue`, `pass`
-- [ ] `range()` in depth
-- [ ] Nested loops
+- [X] `range()` in depth
+- [X] Nested loops
 - [x] Number and star patterns
-- [ ] Comprehensions: list, set and dictionary
+- [X] Comprehensions: list, set and dictionary
 
 **Core data structures**
 - [x] Strings and common string methods
 - [x] Lists: create, access, update and delete
 - [x] List methods: append, extend, insert, remove, pop, sort
-- [ ] List slicing and copying
-- [ ] Nested lists and 2D lists
+- [X] List slicing and copying
+- [X] Nested lists and 2D lists
 - [x] Tuples and tuple operations
 - [x] Sets and set operations
 - [x] Frozensets
 - [x] Dictionaries: keys, values and items
-- [ ] Dictionary methods and nested dictionaries
-- [ ] Choosing the right data structure
+- [X] Dictionary methods and nested dictionaries
+- [X] Choosing the right data structure
 
 **Functions and reusable code**
 - [x] Define and call functions
 - [x] Parameters and arguments
 - [x] Return values
-- [ ] Default and keyword arguments
-- [ ] Positional and keyword-only arguments
-- [ ] Variable-length arguments: `*args`, `**kwargs`
-- [ ] Local and global scope
-- [ ] Lambda functions
-- [ ] Recursion and base cases
+- [X] Default and keyword arguments
+- [X] Positional and keyword-only arguments
+- [X] Variable-length arguments: `*args`, `**kwargs`
+- [X] Local and global scope
+- [X] Lambda functions
+- [X] Recursion and base cases
 - [ ] Modules and imports
 - [ ] Create and use your own modules
 - [ ] `if __name__ == "__main__"`
