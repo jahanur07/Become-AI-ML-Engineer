@@ -1,0 +1,4 @@
+
+This content write by using 'a'mode 
+'a' mode add new content end of the file
+good bye !!

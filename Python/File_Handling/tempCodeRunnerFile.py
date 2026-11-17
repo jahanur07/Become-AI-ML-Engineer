@@ -1,1 +1,1 @@
-print(file_handler)
+print(content)
